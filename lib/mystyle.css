@@ -7,3 +7,8 @@
     color:darkslategray;
     font-family: cursive;
 }
+
+.content{
+    color: blueviolet;
+    display: none;
+}
