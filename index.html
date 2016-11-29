@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>getSomeATM</title>
+    <link rel="icon" type="image/x-icon" href="images/atm2.png">  
+     <link rel="stylesheet" href="lib/mystyle.css">
+    <link rel="stylesheet" href="lib/bootstrap-3.3.6-dist/css/bootstrap.min.css">
+</head>
+<body>
+   <div class="container-fluid">
+    
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+    <h3>getSomeATM</h3>
+    </div>
+  </div>
+</nav>
+    
+    <!--style="position:relative;top:50px;left:100px;"-->
+
+  <div class="form-group">
+    <label for="findPlace" class="sr-only">place</label>
+    <input type="text" class="form-control input-lg" id="autocomplete"  onFocus="geolocate()"  placeholder="Enter place or pincode to search ATM">
+  </div>
+ 
+
+
+<div id="map"></div>
+ <br><br>
+<table id="mytable" class="table table-hover table-striped  " >
+  
+     </table>
+
+</div>
+<script src="lib/jquery-1.11.3.js"></script>  
+ <script src="lib/bootstrap-3.3.6-dist/js/bootstrap.min.js"></script>    
+ <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCh_MsJ423Bv2Kix5XNUGMD7AhhGZdX9F0&libraries=places&callback=initAutocomplete"
+        async defer></script> 
+<script src="lib/jScript.js"></script> 
+</body>
+</html>
